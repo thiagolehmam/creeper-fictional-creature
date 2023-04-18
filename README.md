@@ -7,5 +7,5 @@ Creepers are hostile mobs (short for mobile non-player characters) that can be e
 
 for checking out this project, please click:
 ```
-link:
+link: 
 ```

@@ -3,27 +3,21 @@
 <canvas width="400" height="400"></canvas>
 
 <script>
+//html file |   "screen"            |   "brush"      |"pass brush"|"ink color"
+    document.querySelector("canvas").getContext("2d").fillStyle = "darkgreen";
+    document.querySelector("canvas").getContext("2d").fillRect(0, 0, 400, 400);
 
+    document.querySelector("canvas").getContext("2d").fillStyle = "black";
 
+    //top squares
+    document.querySelector("canvas").getContext("2d").fillRect(50, 50, 100, 100);
+    document.querySelector("canvas").getContext("2d").fillRect(250, 50, 100, 100);
 
-document.querySelector("canvas").getContext("2d").fillStyle = "darkgreen";
-document.querySelector("canvas").getContext("2d").fillRect(0, 0, 400, 400);
+    //middle square
+    document.querySelector("canvas").getContext("2d").fillRect(150, 150, 100, 175);
 
-document.querySelector("canvas").getContext("2d").fillStyle = "black";
-
-//quadrados do top
-document.querySelector("canvas").getContext("2d").fillRect(50, 50, 100, 100);
-document.querySelector("canvas").getContext("2d").fillRect(250, 50, 100, 100);
-
-//quadrado do meio
-document.querySelector("canvas").getContext("2d").fillRect(150, 150, 100, 175);
-
-//quadrados de baixo
-document.querySelector("canvas").getContext("2d").fillRect(100, 200, 50, 200);
-document.querySelector("canvas").getContext("2d").fillRect(250, 200, 50, 200);
-
-
-
-
+    //bottom squares
+    document.querySelector("canvas").getContext("2d").fillRect(100, 200, 50, 200);
+    document.querySelector("canvas").getContext("2d").fillRect(250, 200, 50, 200);
 
 </script>

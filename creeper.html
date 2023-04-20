@@ -1,2 +1,26 @@
+<meta charset="UTF-8">
+
+<canvas width="400" height="400"></canvas>
+
+<script>
+    //           html file 
+    var screen = document.querySelector('canvas');
+    var brush = screen.getContext('2d');
+
+    brush.fillStyle = "darkgreen";
+    brush.fillRect(0, 0, 400, 400);
+
+    brush.fillStyle = "black";
+
+    //top squares
+    brush.fillRect(50, 50, 100, 100);
+    brush.fillRect(250, 50, 100, 100);
+
+    //middle square
+    brush.fillRect(150, 150, 100, 175);
+
+    //bottom squares
+    brush.fillRect(100, 200, 50, 200);
+    brush.fillRect(250, 200, 50, 200);
 
 </script>
